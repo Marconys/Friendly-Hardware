@@ -1,0 +1,111 @@
+/*geral*/
+
+body, h1, h2, p, input, textarea{
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2{
+font-size: 30px;
+
+}
+
+#navbar{
+background-color: #35b8b0;
+color: black;
+padding: 0 15px;
+height: 60px;
+font-weight: bold;
+}
+
+#navbar h2, #navbar ul, #navbar-menu li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar img{
+    height: 60px;
+    position: absolute;
+    top: -2px;
+}
+
+
+#navbar h2{
+    margin: -8px;
+    padding: 10px;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul{
+    margin-top: 22px;
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar-menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar-menu li a:hover{
+    background-color: #111;
+}
+
+main{
+    padding: 50px 0;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+}
+
+main img{
+    height: 50 px;
+    margin: 30px 0;
+}
+
+main p{
+    margin-top: 25px;
+}
+
+main form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main input, main textarea{
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer{
+    background-color: #35b8b0;
+    color: black;
+    padding: 15px;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    background-color: #111;
+}
+
+main .detail{
+    font-weight: bold;
+}

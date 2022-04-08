@@ -1,0 +1,148 @@
+/* geral */
+body, p, h1, h2, input, textarea{
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1 {
+    padding: 5px;
+}
+
+/* navbar */
+
+#navbar{
+    background-color:#35b8b0;
+    color: black;
+    padding: 0 15px;
+    height: 60px;
+    font-weight: bold;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: -8px;
+    padding: 10px;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img{
+    height: 60px;
+    position: absolute;
+    top: -2px;
+}
+
+#navbar nav{
+    float: right;
+    
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+#navbar-list li a:hover{
+    background-color: #111;
+}
+
+/* Banner*/
+
+#main-banner{
+    height: 600px;
+    background-image: url('img/servidor.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+    
+}
+
+#banner-info{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color:goldenrod;
+    padding: -8px;
+    
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#banner-info p{
+    background-color:#35b8b0;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: black;
+}   
+
+
+main input{
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: block;
+
+
+}
+main form{
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+button a{
+    text-decoration: none;
+    color:black
+}
+
+button a:hover{
+    border-bottom: solid black;
+    }
+
+
+footer{
+    background-color: #35b8b0;
+    color: black;
+    padding: 15px;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .detail{
+    font-weight: bold;
+}

@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	
+	text-align: center;
+	text-shadow: 1px 1px 1px #111111;
+	padding: 15px;
+	font-weight: bold;
+}
+
+i{
+	color: #FF8C00;
+	font-weight: bold;
+	font-weight: bold;
+	}
+
+b{
+	color:#FF8C00;
+	font-size: 22;
+}	
+
+
+p{
+color: black;
+font-size: 20;
+padding-left: 20%;
+font-weight: bold;
+
+}
+
+body{
+	background: #35b8b0;
+}
+body, h1, h2, p, input, textarea{
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2{
+font-size: 30px;
+
+}
+
+#navbar{
+background-color: #35b8b0;
+color: black;
+padding: 0 15px;
+height: 60px;
+font-weight: bold;
+}
+
+#navbar h2, #navbar ul, #navbar-menu li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar img{
+    height: 60px;
+    position: absolute;
+    top: -2px;
+}
+
+
+#navbar h2{
+    margin: -8px;
+    padding: 10px;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul{
+    margin-top: 22px;
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar-menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar-menu li a:hover{
+    background-color: #111;
+}
+
+footer{
+    background-color: #35b8b0;
+    color: black;
+    padding: 15px;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logo{
+float: left;
+}
+
+#menu{
+	float: right;
+	background-color: #35b8b0;
+	margin: 0 10px;
+}
+
+#menu a{
+	text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#menu a:hover{
+	background-color: #111;
+}
+
+#div-titulo{
+	clear: both;
+background-color: goldenrod;
+height: 70PX;
+}
+
+#div-conteudo{
+
+	background-color: whitesmoke;
+		background-size: 100%;
+		min-height: 500px;
+}
+
+
+
+
+.container{
+width: 960px;
+margin: auto;
+}
+
+.efeitos{
+	background-color: rgba(0, 0, 0, 0.5);
+}
